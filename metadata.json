@@ -1,0 +1,6 @@
+{
+  "name": "Axis EasyFlow",
+  "description": "AI-Powered Embedded Working Capital Platform for FMCG Suppliers",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
