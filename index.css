@@ -1,0 +1,97 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --axis-burgundy: #97144D;
+    --axis-burgundy-dark: #7A0F3D;
+    --axis-burgundy-light: #FDF2F6;
+    --axis-teal: #0D9488;
+    --axis-teal-light: #CCFBF1;
+  }
+
+  body {
+    background-color: #F3F4F6;
+    background-image: radial-gradient(at 0% 0%, rgba(151, 20, 77, 0.05) 0px, transparent 50%),
+                      radial-gradient(at 100% 100%, rgba(13, 148, 136, 0.05) 0px, transparent 50%);
+    background-attachment: fixed;
+    color: #1F2937;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+}
+
+/* Frosted Glass Utilities */
+.glass {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 0 4px 16px 0 rgba(31, 38, 135, 0.04);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(229, 231, 235, 0.8);
+  box-shadow: 0 2px 8px -2px rgba(0, 0, 0, 0.04);
+}
+
+.glass-dark {
+  background: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Custom Utilities for Axis Bank Enterprise Branding */
+.bg-axis-burgundy {
+  background-color: #97144D;
+}
+
+.hover\:bg-axis-burgundy-dark:hover {
+  background-color: #7A0F3D;
+}
+
+.text-axis-burgundy {
+  color: #97144D;
+}
+
+.border-axis-burgundy {
+  border-color: #97144D;
+}
+
+.bg-axis-burgundy-light {
+  background-color: #FDF2F6;
+}
+
+.bg-axis-teal {
+  background-color: #0D9488;
+}
+
+.text-axis-teal {
+  color: #0D9488;
+}
+
+.border-axis-teal {
+  border-color: #0D9488;
+}
+
+.bg-axis-teal-light {
+  background-color: #F0FDF4;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
